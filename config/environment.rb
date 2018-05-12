@@ -24,5 +24,6 @@ sql = <<-SQL
     age INTEGER,
     hometown TEXT,
   )
+SQL
 
 require_relative "../artist.rb"
