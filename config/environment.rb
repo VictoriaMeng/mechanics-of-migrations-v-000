@@ -16,4 +16,13 @@ connection = Active::Base.establish_connection(
   :database => "db/artists.sqlite"
 )
 
+sql = <<-SQL
+  CREATE TABLE IF NOT EXISTS artists (
+    id INTEGER PRIMARY key
+    name TEXT,
+    genre TEXT,
+    age INTEGER,
+    hometown TEXT,
+  )
+
 require_relative "../artist.rb"
