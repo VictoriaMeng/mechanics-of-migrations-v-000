@@ -22,7 +22,7 @@ sql = <<-SQL
     name TEXT,
     genre TEXT,
     age INTEGER,
-    hometown TEXT,
+    hometown TEXT
   )
 SQL
 
